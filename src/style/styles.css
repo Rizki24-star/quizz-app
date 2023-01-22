@@ -1,0 +1,168 @@
+.home{
+    background: orange;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50p
+}
+
+.play-button-continer{
+    margin-top: 40px;
+}
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.home-button span{
+    color: white !important;
+}
+
+.home-button{
+    width: 120px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 50px; 
+    border: none;
+    font-weight: bolder;
+    background-color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.3s;
+}
+
+.home-button:hover{
+    letter-spacing: 2px;
+    transform: scale(1.2);
+}
+
+.instruction-container{
+    text-align: center;
+    padding: 50px;
+}
+
+.choice-button{
+    margin-top: 60px;
+    padding: 30px;
+}
+
+.choice-button span{
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.choice-button span:hover{
+    letter-spacing: 1px;
+}
+
+.questions{
+    padding: 50px;
+    text-align: center;
+}
+
+.question-menu-container span{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: white !important;
+  background-color: black;
+}
+
+.question-container{
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.quit-btn{
+    color: white !important;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #B03A2E;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.quit-btn:hover{
+    letter-spacing: 1px;;
+}
+
+.options-container p {
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.options-container p:hover{
+    background-color: black;
+    color: white !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.summary-container{
+    padding: 50px;
+    text-align: center;
+}
+
+.button-summary{
+    padding: 80px;
+}
+
+.button-summary button span{
+    color: white !important;
+}
+
+.btn-text{
+    color: white !important;
+}
+
+.button-summary button{
+    color: white !important;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 130px;
+    font-weight: 500;
+    transition: 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.button-summary button:hover{
+    letter-spacing: 1px;
+    transform: scale(1.1);
+}
+
+.back{
+    background-color: black;
+    color: white !important;
+}
+
+.toast{
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none !important;;
+}
+
+.toast-valid{
+    background-color: green;
+    color: white;
+}
+
+.toast-invalid{
+    background-color: red;
+    color: white;
+}
+
+audio{
+    display: none !important;
+}
